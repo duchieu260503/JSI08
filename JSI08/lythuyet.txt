@@ -1,0 +1,59 @@
+# Lập trình hàm và OOP - object oriented programing
+    ## Lập trình hàm: Phân tích bài toán thành các hàm để giải quyết 1 công việc nào đó 
+    ## OOP: Phân tích bài toán thành các đối tượng 
+    Ví dụ : Viết code để 1 sinh viên có thể đăng kí môn học trong hệ thống 
+        Lập trình hàm: ShowList(), Dangki(), Validate()
+        Lập trình OOP:      
+            SinhViên:
+            HệThống
+            MônHọc
+    -> Xác định phương thức và thuộc tính 
+          Thuộc tính: Đặc điểm của dối tượng (name,age,gender)
+          Phương thức: Các hàm thể hiện hoạt động của đối tượng này (Ăn, Ngủ, Đi học, Chơi Game)
+    -> JS là 1 ngôn ngữ thiên về lập trình hàm. OOP ứng dụng cho việc tái sử dụng code + và phân chia 1 cách khá logic     
+
+1. Phân biệt class và object (Lớp và đối tượng)
+    Lớp : Trừu tượng, tổng quát hóa cho đối tượng 
+    Đối tượng: Thực thể có thực đại diện cho cái lớp ở trên
+    Ví dụ: 
+        Lớp: Car
+        Đối tượng: Volvo, Audi,...        
+2. Từ khóa constructor, this
+    constructor: Khởi tạo các thuộc tính của lớp
+    this: Trỏ tới lớp 
+3. Các tính chất của OOP (4 tính chất)
+   - Bao đóng
+        private: Các thuộc tính của lớp A không thể được dùng bởi lớp B 
+        protected: Các thuộc tính của lớp A chỉ được dùng trong lớp A và lớp con (extend) của nó 
+        public: Các thuộc tính của lớp A có thể được dùng bởi lớp B 
+        var b = 6
+        {
+        console.log(b) // public
+        let a = 5 // private 
+        }
+        console.log(a)
+   - Kế thừa
+     - extends : Kế thừa các thuộc tính và phương thức của lớp cha 
+   - Đa hình
+       ### Phân biệt override và overload
+            -override: Phương thức cùng 1 tên nhưng thực hiện các chức năng khác nhau 
+            -overload: Các phương thức cùng tên nhận vào số lượng tham số khác nhau 
+   - Trừu tượng (abstract và interface): Trừu tượng hóa 1 đối tượng
+   
+   Ví dụ: Các bạn thực hiện đăng nhập 
+        User: Tôi nhập thông tin tài khoản thế là tôi sử dịch vụ của trang web 
+        Dev: Nhập thông tin -> validate -> request -> response -> ....
+5. Kế thừa extends, interface(abstract)
+    - Từ khóa super: Trỏ tới phương thức khởi tạo của lớp cha 
+6. Từ khóa new
+    Cung cấp bộ nhớ để lưu trữ 
+
+
+// => 4 tính chất OOP 
+// => class tạo 1 lớp (thuộc tính, phương thức)
+// => override và overload 
+// => constructor 
+// => this,super
+// => new 
+// => extends
+// => Tìm đọc thêm public,private,protected, abstract và interface của java
